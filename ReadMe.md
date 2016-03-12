@@ -120,5 +120,21 @@
     </html>
 ```
 
+- Update package.json so npm install / jspm install will work
 
+```
+    {
+      "dependencies": {
+        "jspm": "0.16.31"
+      },
+      "jspm": {
+        "dependencies": {
+          "react": "npm:react@^0.14.7",
+          "react-dom": "npm:react-dom@^0.14.7",
+          "react-router": "npm:react-router@^2.0.1",
+          "systemjs": "npm:systemjs@^0.19.24"
+        }
+      }
+    }
+```
     
