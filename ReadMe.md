@@ -1,5 +1,31 @@
 #c# devs guide to installing react with typescript
 
+If cloning this repository:
+
+- Install npm: 
+    - Download latest node: https://nodejs.org/en/
+    - Open cmd.exe as administrator
+    - cd C:\Program Files (x86)\nodejs
+    - npm install npm@latest
+    - run npm (no params) check version > 3 to avoid long paths on windows
+
+- Install typescript
+    - Download latest typescript for VS: http://www.typescriptlang.org/#Download 
+
+- Install jspm
+    - Run cmd.exe
+    - npm install jspm -g
+
+- Reinstall packages
+    - navigate to root of web project
+    - open cmd
+    - npm install
+    - jspm install
+
+- Run solution in VS2015
+
+If starting from scratch:
+
 - Create a Visual Studio Web Project (Web api was what I used)
 
 - Install npm: 
