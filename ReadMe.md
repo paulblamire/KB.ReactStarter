@@ -28,11 +28,11 @@
     - Include \config.js in web project (it was created by last step)
 
 - Install packages        
-    - npm install gulp
+    - npm install gulp --save-dev
     - jspm install npm:systemjs    
 
 - Install jspm workflow packages        
-    - npm install gulp-jspm    
+    - npm install gulp-jspm --save-dev   
 
 - Install react npm packages        
     - jspm install react
