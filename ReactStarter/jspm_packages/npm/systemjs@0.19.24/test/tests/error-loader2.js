@@ -1,2 +1,0 @@
-/* */ 
-require('non-existent');

@@ -1,2 +1,0 @@
-/* */ 
-exports.maptest = 'maptestsub';
