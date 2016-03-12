@@ -1,0 +1,21 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <script src="/jspm_packages/system-polyfills.js"></script>
+    <script src="/jspm_packages/system.js"></script>
+    <script src="/config.js"></script>
+    <script src="/scripts/HelloComponent.bundle.js"></script>
+</head>
+<body>
+    <script>
+    System
+      .import('App/HelloComponent.js').then(function (m) {
+            m.RunApp();
+        })
+      .then(null, console.error.bind(console));
+    </script>
+</body>
+</html>
+
