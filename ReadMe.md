@@ -23,6 +23,7 @@ If cloning this repository:
     - jspm install
 
 - Run solution in VS2015
+- Navigate to http://website:port/app/index.html
 
 If starting from scratch:
 
