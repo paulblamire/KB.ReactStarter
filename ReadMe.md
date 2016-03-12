@@ -52,10 +52,10 @@
     - Include typings\main.d.ts
     - Include typings\main folder
     
-- Set up gulp workflow
+- Define gulp workflow
     - Add gulpfile.js in project root
     
-    
+```    
     var gulp = require('gulp');
     var gulp_jspm = require('gulp-jspm'); // npm install gulp-jspm 
     
@@ -64,7 +64,9 @@
             .pipe(gulp_jspm())
             .pipe(gulp.dest('scripts/'));
     });
-    
+```
+
+- Trigger gulp workflow
     - View > Other Windows > Task Runner Explorer
     - Refresh the view
     - Select the bundle javascript task
@@ -74,7 +76,7 @@
     - Add a folder called App in the root
     - Add a Typescript JSX file called App/HelloComponent.tsx
     
-    
+```    
     import * as React from 'react';
     import * as ReactDom from 'react-dom';
 
@@ -91,10 +93,11 @@
     export function RunApp() {
         ReactDom.render(<HelloComponent message="World" />, document.body);
     }
+```
 
 - Add a html file called App/index.html
 
-            
+```            
     <!DOCTYPE HTML>
     <html>
     <head>
@@ -115,7 +118,7 @@
         </script>
     </body>
     </html>
-
+```
 
 
     
