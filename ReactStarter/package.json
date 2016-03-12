@@ -1,5 +1,7 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-jspm": "0.5.7",
     "jspm": "0.16.31"
   },
   "jspm": {
