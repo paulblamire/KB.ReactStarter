@@ -148,10 +148,13 @@ If starting from scratch:
 ```
 
 - Update package.json so npm install / jspm install will work
+    - Ensure it looks like the following  
 
 ```
     {
-      "dependencies": {
+      "devDependencies": {
+        "gulp": "3.9.1",
+        "gulp-jspm": "0.5.7",
         "jspm": "0.16.31"
       },
       "jspm": {
