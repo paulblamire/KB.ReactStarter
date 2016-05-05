@@ -2,7 +2,7 @@
   "devDependencies": {
     "gulp": "3.9.1",
     "gulp-jspm": "0.5.7",
-    "jspm": "0.16.31"
+    "jspm": "^0.16.31"
   },
   "jspm": {
     "dependencies": {
@@ -10,6 +10,7 @@
       "react-dom": "npm:react-dom@^0.14.7",
       "react-router": "npm:react-router@^2.0.1",
       "systemjs": "npm:systemjs@^0.19.24"
-    }
+    },
+    "devDependencies": {}
   }
 }
