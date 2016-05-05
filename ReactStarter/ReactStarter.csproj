@@ -293,6 +293,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="App\react-autosuggest-container.tsx" />
+    <TypeScriptCompile Include="App\react-autosuggest-redux.ts" />
+    <TypeScriptCompile Include="App\react-autosuggest.tsx" />
     <TypeScriptCompile Include="App\react-autowhatever.tsx" />
     <TypeScriptCompile Include="App\HelloComponent.tsx" />
     <TypeScriptCompile Include="App\object-assign.ts" />
